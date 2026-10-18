@@ -553,6 +553,12 @@
       "skillPath": "skills/react-native-mmkv/SKILL.md",
       "computedHash": "88be7236ba15ce78d3dc54592029c43165383c214a2d975aabfd54c4ecf2adb0"
     },
+    "react-native-testing": {
+      "source": "callstack/react-native-testing-library",
+      "sourceType": "github",
+      "skillPath": "skills/react-native-testing/SKILL.md",
+      "computedHash": "9e2645ee07632dc3b929c23a4545030c4208969c5b57703d66df05264741d4ae"
+    },
     "revenuecat": {
       "source": "RevenueCat/ai-toolkit",
       "sourceType": "github",
