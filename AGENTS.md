@@ -52,6 +52,13 @@ src/
 - Keep route entry points in `src/app/`; place screen implementations in `src/screens/` and import them from the corresponding routes.
 - Keep backend functions and schema in `convex/`; this `src/` layout does not replace the backend structure.
 
+## Screen animations
+
+- Use `react-native-reanimated` for screen and component animations throughout the app; do not introduce a competing animation library.
+- Give screens polished, purposeful motion where it improves feedback, hierarchy, or transitions. Prefer subtle, consistent entrance and interaction animations over animating every element or adding motion without a UX benefit.
+- Keep animations smooth on mobile by favoring transform and opacity animations, avoiding unnecessary work on the JavaScript thread, and respecting the user's reduced-motion preference.
+- Use Reanimated's `Animated` components for animated views, text, images, and scrollable components.
+
 ## Building with EAS
 
 Use EAS to build, sign, and submit the app in the cloud (`eas build`, `eas submit`) and to ship over-the-air updates (`eas update`) — no local Xcode or Android Studio required. Run EAS CLI as `bunx eas-cli <command>` in Bun projects, or `bunx eas-cli@latest <command>` otherwise; substitute that for bare `eas` in docs examples.

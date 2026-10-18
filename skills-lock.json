@@ -253,6 +253,12 @@
       "skillPath": "revenuecat/skills/create-revenuecat-project/SKILL.md",
       "computedHash": "5b503bf0b6d1c0521b29efdc2f9ed8cb4d9bcb4cd32441f5ab8ea43d264b0b5c"
     },
+    "creating-reanimated-animations": {
+      "source": "estevg/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/creating-reanimated-animations/skills/creating-reanimated-animations/SKILL.md",
+      "computedHash": "3bbe9f16bc5ff898c55854a9c657aa999f55b748f676d17b19c39e5ab4899831"
+    },
     "eas-app-stores": {
       "source": "expo/skills",
       "sourceType": "github",
